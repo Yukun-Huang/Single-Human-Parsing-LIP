@@ -1,5 +1,5 @@
 # Single-Human-Parsing-LIP
-A baseline model ( PSPNet ) for single-person human parsing task, training and evaluating on Look into Person (LIP) dataset.
+A baseline model ( PSPNet ) for single-person human parsing task, training and evaluating on [Look into Person (LIP) dataset](http://sysu-hcp.net/lip/index.php).
 
 ## Model
 The implementation of PSPNet is based on [HERE](https://github.com/Lextal/pspnet-pytorch).
@@ -22,27 +22,27 @@ LIP
 │   │   │   ...
 │   │
 │   └───gt
-│   │   │   file111.txt
-│   │   │   file112.txt
+│   │   │   77_471474.png
+│   │   │   113_1207747.png
 │   │   │   ...
 │
-└───folder2
-    │   file021.txt
-    │   file022.txt
+└───val
+│   │   id.txt
+│   │
+│   └───image
+│   │   │   100034_483681.jpg
+│   │   │   10005_205677.jpg
+│   │   │   ...
+│   │
+│   └───gt
+│   │   │   100034_483681.png
+│   │   │   10005_205677.png
+│   │   │   ...
 ```
 
-&ensp;&ensp;  ~/dataset/DukeMTMC-reID/  
-&ensp;&ensp;  ~/dataset/DukeMTMC-reID/bounding_box_test/  
-&ensp;&ensp;  ~/dataset/DukeMTMC-reID/bounding_box_train/  
-&ensp;&ensp;  ~/dataset/DukeMTMC-reID/query/  
-&ensp;&ensp;  ~/dataset/DukeMTMC-reID/attribute/  
-&ensp;&ensp;  ~/dataset/DukeMTMC-reID/attribute/duke_attribute.mat  
-
-
 ## Usage
-python3  train.py  --data-path  ~/dataset  --dataset  [market | duke]  --model  resnet50  
-python3  test.py  --data-path  ~/dataset  --dataset  [market | duke]  --model  resnet50  
-
+python3  train.py  --data-path ~/myLIP
+python3  eval.py  --data-path ~/myLIP [--visualize]
 
 ## Result
 
