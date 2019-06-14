@@ -12,7 +12,6 @@ Then, reorganize the dataset folder as below:
 ```
 LIP
 │ 
-│
 └───train
 │   │   id.txt
 │   │
@@ -37,6 +36,13 @@ LIP
 │   └───gt
 │   │   │   100034_483681.png
 │   │   │   10005_205677.png
+│   │   │   ...
+│
+└───test
+│   │   id.txt
+│   │
+│   └───image
+│   │   │   100012_501646.jpg
 │   │   │   ...
 ```
 
