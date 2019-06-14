@@ -2,15 +2,15 @@
 A baseline model ( PSPNet ) for single-person human parsing task, training and evaluating on [Look into Person (LIP) dataset](http://sysu-hcp.net/lip/index.php).
 
 ## Model
-The implementation of PSPNet is based on [HERE](https://github.com/Lextal/pspnet-pytorch).
+The implementation of PSPNet is based on [Here](https://github.com/Lextal/pspnet-pytorch).
 
 ## Dataset
-To use our code, you should download [LIP dataset](http://sysu-hcp.net/lip/index.php) first.
+To use our code, firstly you should download LIP dataset from [Here](http://sysu-hcp.net/lip/index.php).
 
 Then, reorganize the dataset folder as below:
 
 ```
-LIP
+myLIP
 │ 
 └───train
 │   │   id.txt
@@ -48,6 +48,7 @@ LIP
 
 ## Usage
 python3  train.py  --data-path ~/myLIP
+
 python3  eval.py  --data-path ~/myLIP [--visualize]
 
 ## Result
@@ -58,3 +59,4 @@ python3  eval.py  --data-path ~/myLIP [--visualize]
 | densenet121 | 0.826 | 0.606 | 0.519 |
 | squeezenet | 0.786 | 0.543 | 0.450 |
 
+![demo](demo.jpg)
