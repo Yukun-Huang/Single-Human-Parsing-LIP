@@ -2,7 +2,7 @@
 A baseline model ( PSPNet ) for single-person human parsing task, training and testing on Look into Person  dataset.
 
 ## Model
-The implementation of PSPNet is based on [Here](https://github.com/Lextal/pspnet-pytorch).
+We built model with PyTorch 0.4.1 and the implementation of PSPNet was based on [Here](https://github.com/Lextal/pspnet-pytorch).
 
 ## Dataset
 To use our code, firstly you should download LIP dataset from [Here](http://sysu-hcp.net/lip/index.php).
