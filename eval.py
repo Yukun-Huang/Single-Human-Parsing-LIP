@@ -6,7 +6,6 @@ import argparse
 import logging
 import numpy as np
 import matplotlib
-matplotlib.use('agg')
 import matplotlib.pyplot as plt
 
 import torch
@@ -128,10 +127,6 @@ def show_image(img, pred, gt):
 
     plt.savefig(fname="result.jpg")
     plt.show()
-    if getpass.getuser() == 'Administrator':
-        os.system('pause')
-    else:
-        input('please input enter to continue...')
 
 
 def get_pixel_acc(pred, gt):
