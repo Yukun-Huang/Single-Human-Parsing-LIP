@@ -61,4 +61,4 @@ python3  eval.py  --data-path ~/myLIP [--visualize]
 | densenet121 | 0.826 | 0.606 | 0.519 |
 | squeezenet | 0.786 | 0.543 | 0.450 |
 
-![demo](https://github.com/hyk1996/Single-Human-Parsing-LIP/raw/master/demo/demo.png)
+![demo](https://github.com/hyk1996/Single-Human-Parsing-LIP/raw/master/demo/demo.jpg)
