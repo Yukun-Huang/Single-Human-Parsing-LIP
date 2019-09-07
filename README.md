@@ -49,9 +49,11 @@ myLIP
 ```
 
 ## Usage
+```
 python3  train.py  --data-path ~/myLIP
 
 python3  eval.py  --data-path ~/myLIP [--visualize]
+```
 
 ## Result
 
