@@ -54,7 +54,7 @@ python3  train.py  --data-path ~/myLIP
 
 python3  eval.py  --data-path ~/myLIP [--visualize]
 
-python3  inference.py  demo/test_a.jpg
+python3  inference.py  demo/test.jpg
 ```
 
 ## Result
@@ -72,6 +72,6 @@ python3  inference.py  demo/test_a.jpg
 ![demo](https://github.com/hyk1996/Single-Human-Parsing-LIP/raw/master/demo/demo.jpg)
 
 ```
->> python3  inference.py  demo/test_a.jpg
+>> python3  inference.py  demo/test.jpg
 ```
 ![demo](https://github.com/hyk1996/Single-Human-Parsing-LIP/raw/master/demo/result.jpg)
