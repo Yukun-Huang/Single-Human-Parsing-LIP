@@ -78,4 +78,4 @@ python3  inference.py  demo/test.jpg
 ```
 >> python3  inference.py  demo/test.jpg
 ```
-![demo](https://github.com/hyk1996/Single-Human-Parsing-LIP/raw/master/demo/result.jpg)
+![demo](https://github.com/hyk1996/Single-Human-Parsing-LIP/blob/master/demo/result.jpg)
