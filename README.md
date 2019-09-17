@@ -69,9 +69,9 @@ python3  inference.py  demo/test_a.jpg
 
 ### Visualization
 
-![demo](https://github.com/hyk1996/Single-Human-Parsing-LIP/raw/master/demo/demo1.jpg)
+![demo](https://github.com/hyk1996/Single-Human-Parsing-LIP/raw/master/demo/demo.jpg)
 
 ```
 >> python3  inference.py  demo/test_a.jpg
 ```
-![demo](https://github.com/hyk1996/Single-Human-Parsing-LIP/raw/master/demo/result_a.jpg)
+![demo](https://github.com/hyk1996/Single-Human-Parsing-LIP/raw/master/demo/result.jpg)
