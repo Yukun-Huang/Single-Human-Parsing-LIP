@@ -1,5 +1,5 @@
 # Single-Human-Parsing-LIP
-A baseline model ( PSPNet ) for single-person human parsing task, training and testing on Look into Person  dataset.
+PSPNet implemented in PyTorch for **single-person human parsing** task, evaluating on Look Into Person (LIP) dataset.
 
 ## Model
 We built model with PyTorch 0.4.1 and the implementation of PSPNet was based on [Here](https://github.com/Lextal/pspnet-pytorch).
