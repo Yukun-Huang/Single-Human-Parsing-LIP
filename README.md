@@ -59,10 +59,19 @@ python3  inference.py  demo/test_a.jpg
 
 ## Result
 
+### Evaluation
+
 | model | overall acc. | mean acc. | mean IoU |
 | :------: | :------: | :------: | :------: |
 | resnet50 | 0.792 | 0.552 | 0.463 |
 | densenet121 | 0.826 | 0.606 | 0.519 |
 | squeezenet | 0.786 | 0.543 | 0.450 |
 
+### Visualization
+
 ![demo](https://github.com/hyk1996/Single-Human-Parsing-LIP/raw/master/demo/demo1.jpg)
+
+```
+>> python3  inference.py  demo/test_a.jpg
+```
+![demo](https://github.com/hyk1996/Single-Human-Parsing-LIP/raw/master/demo/result_a.jpg)
