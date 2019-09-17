@@ -72,10 +72,9 @@ python3  inference.py  demo/test.jpg
 ```
 >> python3  eval.py  --data-path ~/myLIP  --visualize
 ```
-
-![demo](https://github.com/hyk1996/Single-Human-Parsing-LIP/raw/master/demo/demo.jpg)
+<img src="https://github.com/hyk1996/Single-Human-Parsing-LIP/blob/master/demo/demo.jpg"  height="250" width="500">
 
 ```
 >> python3  inference.py  demo/test.jpg
 ```
-![demo](https://github.com/hyk1996/Single-Human-Parsing-LIP/blob/master/demo/result.jpg)
+<img src="https://github.com/hyk1996/Single-Human-Parsing-LIP/blob/master/demo/result.jpg"  height="250" width="500">
