@@ -57,9 +57,7 @@ python3  eval.py  --data-path ~/myLIP [--visualize]
 python3  inference.py  demo/test.jpg
 ```
 
-## Result
-
-### Evaluation
+## Evaluation
 
 | model | overall acc. | mean acc. | mean IoU |
 | :------: | :------: | :------: | :------: |
@@ -67,7 +65,7 @@ python3  inference.py  demo/test.jpg
 | densenet121 | 0.826 | 0.606 | 0.519 |
 | squeezenet | 0.786 | 0.543 | 0.450 |
 
-### Visualization
+## Visualization
 
 ```
 >> python3  eval.py  --data-path ~/myLIP  --visualize
