@@ -2,12 +2,12 @@
 PSPNet implemented in PyTorch for **single-person human parsing** task, evaluating on Look Into Person (LIP) dataset.
 
 ## Model
-We built model with PyTorch 0.4.1 and the implementation of PSPNet was based on [Here](https://github.com/Lextal/pspnet-pytorch).
+We built model with PyTorch 1.1.0 and the implementation of PSPNet was based on [HERE](https://github.com/Lextal/pspnet-pytorch).
 
 Trained model weights can be downloaded from [Google Drive](https://drive.google.com/drive/folders/13DzOvUoIx0JR-BTEilhLqdAIp3h0H5Zj) or [Baidu Drive](https://pan.baidu.com/s/1SuGbwL1CF7pLxN1olBc49Q) (提取码：43cu).
 
 ## Dataset
-To use our code, firstly you should download LIP dataset from [Here](http://sysu-hcp.net/lip/index.php).
+To use our code, firstly you should download LIP dataset from [HERE](http://sysu-hcp.net/lip/index.php).
 
 Then, reorganize the dataset folder as below:
 
@@ -62,6 +62,7 @@ python3  inference.py  demo/test.jpg
 | model | overall acc. | mean acc. | mean IoU |
 | :------: | :------: | :------: | :------: |
 | resnet50 | 0.792 | 0.552 | 0.463 |
+| resnet101 | 0.805 | 0.579 | 0.489 |
 | densenet121 | 0.826 | 0.606 | 0.519 |
 | squeezenet | 0.786 | 0.543 | 0.450 |
 
