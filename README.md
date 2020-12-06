@@ -6,6 +6,12 @@ We built model with PyTorch 1.1.0 and the implementation of PSPNet was based on 
 
 Trained model weights can be downloaded from [Google Drive](https://drive.google.com/drive/folders/13DzOvUoIx0JR-BTEilhLqdAIp3h0H5Zj) or [Baidu Drive](https://pan.baidu.com/s/1SuGbwL1CF7pLxN1olBc49Q) (提取码：43cu).
 
+## Environment
+* Python 3.6
+* PyTorch == 1.1.0
+* torchvision == 0.3.0
+* matplotlib
+
 ## Dataset
 To use our code, firstly you should download LIP dataset from [HERE](http://sysu-hcp.net/lip/index.php).
 
