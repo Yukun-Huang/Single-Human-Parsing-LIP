@@ -56,11 +56,11 @@ myLIP
 
 ## Usage
 ```
-python3  train.py  --data-path ~/myLIP
+python3  train.py  --data-path PATH-TO-LIP  --backend [resnet50 | densenet | squeezenet]
 
-python3  eval.py  --data-path ~/myLIP [--visualize]
+python3  eval.py  --data-path PATH-TO-LIP  --backend [resnet50 | densenet | squeezenet]  [--visualize]
 
-python3  inference.py  demo/test.jpg
+python3  inference.py  demo/test.jpg  --backend [resnet50 | densenet | squeezenet]
 ```
 
 ## Evaluation
@@ -75,7 +75,7 @@ python3  inference.py  demo/test.jpg
 ## Visualization
 
 ```
->> python3  eval.py  --data-path ~/myLIP  --visualize
+>> python3  eval.py  --data-path PATH-TO-LIP  --visualize
 ```
 <img src="https://github.com/hyk1996/Single-Human-Parsing-LIP/blob/master/demo/demo.jpg"  height="250" width="500">
 
